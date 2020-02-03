@@ -198,6 +198,51 @@ hr {
 .section-title.center {
   padding: 25px 0 45px 0;
 }
+
+.ftco-about .img-about {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+.ftco-about .img-about .img {
+  display: block;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.ftco-about ul.about-info {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.ftco-about ul.about-info li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.ftco-about ul.about-info li span {
+  width: calc(100% - 130px);
+}
+.ftco-about ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #000000;
+  width: 130px;
+}
+
+.ftco-about .counter-wrap .text p {
+  font-size: 20px;
+}
+.ftco-about .counter-wrap .text p span {
+  font-weight: 400;
+  color: #000000;
+}
+.ftco-about .counter-wrap .text p span.number {
+  font-weight: 600;
+  color: #3e64ff;
+}
 /* About Section */
 #about {
   padding: 100px 0;
